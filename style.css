@@ -1,0 +1,10 @@
+
+.primary-navigation[data-visible=false] {
+    display: none;
+}
+#features-dropdown[data-visible=false] {
+    display: none;
+}
+#company-dropdown[data-visible=false] {
+    display: none;
+}
