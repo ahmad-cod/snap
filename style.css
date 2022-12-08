@@ -134,14 +134,26 @@ nav ul li:last-child {
 
 main {
     flex-direction: column;
-    gap: var(--gap, 3em);
+    gap: var(--gap, 5em);
+}
+.primary-texts {
+    padding: 10px;
+}
+.primary-texts p, h1 {
+    margin-bottom: 1.2rem;
+}
+h1 {
+    color: var(--almost-black, #333);
 }
 main p {
     color: var(--medium-gray);
 }
 .call-to-action {
     background-color: var(--almost-black);
-    color: var(--medium-gray);
+    color: var(--almost-white);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    margin-bottom: 1.3rem;
 }
 @media (min-width: 376px) {
     .overall-container {
