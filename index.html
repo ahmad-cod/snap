@@ -36,13 +36,11 @@
       <nav id="primary-navigation" class="primary-navigation flex" data-visible="false">
         <ul>
           <li>
-            <a href="#">
               Features 
-              <span class="up-down features-nav-toggle" aria-expanded="false" aria-controls="features-dropdown">
+              <button class="up-down features-nav-toggle" aria-expanded="false" aria-controls="features-dropdown">
                 <span class="sr-only">dropdown</span>
-              </span>
-            </a>
-            <ul id="features-dropdown" data-visible="false">
+              </button>
+            <ul id="features-dropdown" class="dropdown" data-visible="false">
               <li><img src="./images/icon-todo.svg" alt="todo"> Todo List</li>
               <li><img src="./images/icon-calendar.svg" alt="Calendar"> Calendar</li>
               <li><img src="./images/icon-reminders.svg" alt="Reminders"> Reminders</li>
@@ -50,13 +48,11 @@
             </ul>
           </li>
           <li>
-            <a href="#">
               Company
-              <span class="up-down company-nav-toggle" aria-expanded="false" aria-controls="company-dropdown">
+              <button class="up-down company-nav-toggle" aria-expanded="false" aria-controls="company-dropdown">
                 <span class="sr-only">dropdown</span>
-              </span>
-            </a>
-            <ul id="company-dropdown" data-visible="false">
+              </button>
+            <ul id="company-dropdown" class="dropdown" data-visible="false">
               <li>History</li>
               <li>Our Team</li>
               <li>Blog</li>
@@ -69,13 +65,13 @@
             <a href="#">About</a>
           </li>
         </ul>
-        <ul class="signupNav">
+        <ul class="signup-nav center">
           <li><a href="#">Login</a></li>
-          <li><a href="#">Register</a></li>
+          <li class="bordered"><a href="#">Register</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="flex center">
       <div class="primary-image container">
         <picture>
           <source media="(min-width: 375px)" srcset="./images/image-hero-desktop.png">
@@ -88,8 +84,8 @@
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <button>Learn more</button>
-        <ul>
+        <a class="call-to-action bordered">Learn more</a>
+        <ul class="flex">
           <li>
             <img src="./images/client-databiz.svg" alt="">
           </li>
