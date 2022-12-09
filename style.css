@@ -128,6 +128,7 @@ main p {
 @media (max-width: 375px) {
     .primary-header {
         justify-content: space-between;
+        padding-top: 1rem;
     }
     .primary-navigation[data-visible=false] {
         display: none;
@@ -163,7 +164,10 @@ main p {
         background-image: url(./images/icon-close-menu.svg);
     }
     .primary-texts p, h1, .primary-texts button {
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .none {
+        display: none;
     }
 }
 @media (min-width: 376px) {
