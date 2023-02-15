@@ -175,7 +175,7 @@ main p {
 }
 @media (min-width: 376px) {
     .overall-container {
-        max-width: 1440px;
+        max-width: 1240px;
         margin: 0 auto;
     }
     .mobile-nav-toggle {
@@ -183,7 +183,7 @@ main p {
     }
     .dropdown {
         position: absolute;
-        width: 300px;
+        width: max-content;
         left: 20px;
         margin-block: 1rem;
         background: white;
