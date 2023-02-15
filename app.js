@@ -6,7 +6,7 @@ const companyNavToggle = document.querySelector('.company-nav-toggle');
 const companyNav = document.querySelector('#company-dropdown');
 
 
-//create a utility function for toggling (Don't repeat yourself!)
+//Create a utility function for toggling (Don't repeat yourself!)
 const toggle = (nav, navToggle) => {
     const visibility = nav.getAttribute('data-visible');
     if(visibility === 'false') {

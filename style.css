@@ -68,6 +68,9 @@ button {
     border-radius: 10px;
 }
 
+.relative {
+    position: relative;
+}
 .up-down {
     background-image: url(./images/icon-arrow-down.svg);
     background-repeat: no-repeat;
@@ -177,6 +180,14 @@ main p {
     }
     .mobile-nav-toggle {
         display: none;
+    }
+    .dropdown {
+        position: absolute;
+        width: 300px;
+        left: 20px;
+        margin-block: 1rem;
+        background: white;
+        padding: 1rem 0;
     }
     .row {
         display: flex;
